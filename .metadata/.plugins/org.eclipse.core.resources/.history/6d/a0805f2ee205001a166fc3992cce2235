@@ -1,0 +1,10 @@
+<suite name="softwaretestmaterial">
+  <test name="softwaretest">
+     <classes>
+        <class name="com.pommercurytest.mercurylogintest"/>   
+     
+     </classes>
+    
+  </test>
+</suite>
+   

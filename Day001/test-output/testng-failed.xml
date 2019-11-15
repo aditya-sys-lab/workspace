@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [softwaretestmaterial]" parallel="tests">
+  <test name="elementsclick(failed)" parallel="tests">
+    <classes>
+      <class name="com.pommercurytest.mercurylogintest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pommercurytest.mercurylogintest -->
+      <class name="com.pom.ElementsClick">
+        <methods>
+          <include name="contact"/>
+          <include name="register"/>
+          <include name="support"/>
+          <include name="setUp"/>
+          <include name="signon"/>
+        </methods>
+      </class> <!-- com.pom.ElementsClick -->
+    </classes>
+  </test> <!-- elementsclick(failed) -->
+  <test name="softwaretest(failed)" parallel="tests">
+    <classes>
+      <class name="com.pommercurytest.mercurylogintest">
+        <methods>
+          <include name="userName"/>
+          <include name="register"/>
+          <include name="login"/>
+          <include name="contact"/>
+          <include name="password"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pommercurytest.mercurylogintest -->
+      <class name="com.pom.ElementsClick">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pom.ElementsClick -->
+    </classes>
+  </test> <!-- softwaretest(failed) -->
+</suite> <!-- Failed suite [softwaretestmaterial] -->

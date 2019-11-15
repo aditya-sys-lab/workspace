@@ -1,0 +1,16 @@
+<suite name="softwaretestmaterial" parallel="tests">
+  <test name="softwaretest">
+     <classes>
+        <class name="com.pommercurytest.mercurylogintest"/>   
+     
+     </classes>
+    
+  </test>
+  <test name="elementsclick">
+     <classes>
+       <class name="com.pom.ElementsClick"/>
+     </classes>
+  </test>
+  
+</suite>
+   

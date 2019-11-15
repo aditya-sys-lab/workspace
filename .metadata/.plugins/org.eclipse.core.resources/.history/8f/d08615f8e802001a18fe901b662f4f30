@@ -1,0 +1,29 @@
+package com.pommercury;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class mercuryuser extends  {
+	
+	
+@FindBy(name="userName")
+WebElement username;
+@FindBy(name="password")
+WebElement password;
+@FindBy(name="login")
+WebElement login;
+
+public void username()
+{
+	username.sendKeys("admin");
+}
+public void password()
+{
+	password.sendKeys("admin");
+}
+public void login()
+{
+	login.click();
+}
+
+}

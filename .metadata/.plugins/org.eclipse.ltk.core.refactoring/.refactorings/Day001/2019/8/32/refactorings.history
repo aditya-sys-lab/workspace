@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;NewToursPOMfile.xlm&apos; to &apos;Day001/src/com.NewToursTestCase&apos;&#x0D;&#x0A;- Original project: &apos;Day001&apos;&#x0D;&#x0A;- Destination element: &apos;Day001/src/com.NewToursTestCase&apos;&#x0D;&#x0A;- Original element: &apos;NewToursPOMfile.xlm&apos;" description="Copy file" destination="/src&lt;com.NewToursTestCase" element1="NewToursPOMfile.xlm" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1565245654613" units="0" version="1.0"/>
+</session>

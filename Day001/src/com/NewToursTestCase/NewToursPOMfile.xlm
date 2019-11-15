@@ -1,0 +1,12 @@
+<suit name="NewToursTestCase"parallel="tests">
+<test name="signOn">
+<classes>
+<class name="com.NewToursTestCase"/>
+</classes
+</test>
+<test name="register">
+<classes>
+<class name="com.NewToursTestCase"/>
+</classes
+</test>
+</suit>

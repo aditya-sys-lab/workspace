@@ -1,0 +1,24 @@
+package com.log4jtutorial;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.testng.annotations.Test;
+
+public class Log4j {
+	
+	
+	@Test
+	     
+	    public void log()
+	    {
+	    	 Logger logger = Logger.getLogger(Log4j.class);
+	        //PropertiesConfigurator is used to configure logger from properties file
+	        PropertyConfigurator.configure("log4j.properties");
+	 
+	        //Log in console in and log file
+	        logger.debug("Log4j appender configuration is successful !!");
+	    }
+	}	
+	
+
+
